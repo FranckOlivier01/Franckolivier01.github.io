@@ -49,6 +49,7 @@ img
    
     background-color: rgb(241, 241, 239); 
     flex-grow: 1;
+    margin-top: ;
 }
 
 .case2
@@ -115,6 +116,94 @@ img
 {
 	text-align: center;
 	background-color: rgb(53, 53, 54);
-	color: #ffd900;
+    color: #ffd900;
+    margin-top: 450px;
+}
+
+
+h1
+{
+    margin-left: 100px;
+    font-size: 30px;
+}
+h2
+{
+	margin-bottom: 0px;
+}
+h3
+{
+	margin-top:0px;
+}
+
+.bloc1
+{
+	margin-top: 70px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nom
+{
+    color: rgb(255, 217, 0);
+    font-size:40px;
+}
+
+.prenom
+{
+    font-size: 40px;
+}
+
+section
+{
+	margin-bottom: 70px;
+}
+
+.expe
+{
+    margin-left: 300px;
+    margin-right: 40px;
+    text-align: justify;
+}
+
+.date
+{
+	float: left;
+	margin-left: 40px;
+}
+
+.date_1
+{
+    margin-top: 5px;
+}
+
+.date_2
+{
+    margin-top: 130px;
+}
+
+.date_3
+{
+    margin-top: 5px;
+}
+
+.date_4
+{
+    margin-top: 130px;
+}
+
+.date_5
+{
+    margin-top: 130px;
+}
+.bloc41
+{
+	margin-left: 40px;
+	display: flex;
+}
+
+.reco2
+{
+	margin-left: 200px;
 }
 
