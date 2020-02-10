@@ -53,7 +53,6 @@ img
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .p1 
@@ -113,7 +112,6 @@ img
 {
     margin-left: 40px;
     content: '';
-
 }
 .nom
 {
@@ -204,7 +202,6 @@ section
 .date_2
 {
     margin-top: 130px;
-
 }
 
 .date_2::before
