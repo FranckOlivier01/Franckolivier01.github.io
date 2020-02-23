@@ -274,6 +274,7 @@ section
     body
     {
         flex-direction: column-reverse;
+        width: 70%;
         height: auto;
         margin-top: 0px;
     }
