@@ -23,7 +23,7 @@ body
 }
 
 
-#side1
+#presentation
 {
     background-color: #FFCA28; 
     flex-shrink: 0;
@@ -48,7 +48,7 @@ body
 }
 
 
-.flexi
+.activities
 {
     display: flex;
     height: 100px;
@@ -63,7 +63,7 @@ img
 
 }
 
-.p1 
+.presentation_title 
 {
     text-align: center;
     background-color: rgb(53, 53, 54);
@@ -72,21 +72,13 @@ img
     margin: 0px;
 }
 
-.p11
+.adress
 {
     margin-left: 30px;
 }
 
-.p2 
-{
-    text-align: center;
-    background-color: rgb(53, 53, 54);
-    color: #ffd900;
-    padding: 5px;
-    margin: 0px;
-}
 
-.lorem
+.about_me
 {
     width: 250px;
     margin-left: 30px;
@@ -94,18 +86,7 @@ img
 }
 
 
-
-.p3
-{
-    text-align: center;
-    background-color: rgb(53, 53, 54);
-    color: #ffd900;
-    padding: 5px;
-    margin: 0px;
-}
-
-
-#side2
+#activity
 {
     background-color: rgb(241, 241, 239); 
     flex-grow: 0;
@@ -115,7 +96,7 @@ img
 }
 
 
-.bloc1
+.name_job
 {
     margin-top: 100px;
     margin-bottom: 140px;
@@ -126,7 +107,7 @@ img
 {
     margin-bottom: 0px;
 }
-.prenom
+.myname
 {
     margin-left: 40px;
     margin-bottom: 0;
@@ -166,7 +147,7 @@ p.subtitle::before
 }
 
 
-.nom
+.mylastname
 {
     color: #FFCA28;
 }
@@ -193,7 +174,7 @@ h2.p1 .p2 .p3
     margin-bottom: 0px;
 }
 
-h2.book, .expe1, .recommand
+h2.book, .expe1, .recommend
 {
 	margin-bottom: 0px;
     border-bottom: 3px solid #FFCA28;
@@ -220,13 +201,17 @@ section
 	margin-bottom: 70px;
 }
 
+.city
+{
+    margin-left: 30px;
+}
+
 .expe
 {
     margin-top: 20px;
     margin-left: 220px;
     margin-right: 40px;
     text-align: justify;
-   /* min-width: 290px;*/
 }
 
 .date
@@ -266,21 +251,68 @@ section
     margin-top: 110px;
 }
 
-.bloc4
+.relations
 {
     margin-bottom: 0px;
 }
 
-.bloc41
+.recommend_0
 {
 	margin-left: 40px;
 	display: flex;
 
 }
 
-.reco2
+.recommend_2
 {
 	margin-left: 200px;
     margin-right: 40px;
 }
 
+@media screen and (max-width: 950px)
+{
+    body
+    {
+        flex-direction: column-reverse;
+        height: auto;
+        margin-top: 0px;
+    }
+
+    #presentation
+    {
+        margin-bottom: 0px;
+        width: 737px;
+        height: auto;
+        flex-shrink: none;
+    }
+
+    #presentation .pics1
+    {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+    #about
+    {
+        height: auto;
+    }
+
+    .about_me
+    {
+        width: auto;
+        margin-right: 30px;
+    }
+
+    .name_job
+    {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }    
+
+    #activity
+    {
+        height: auto;
+    }
+}
