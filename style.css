@@ -380,7 +380,8 @@ h4
 
     #activity
     {
-        min-width: 400px;
+        width: auto;
+        min-width: 350px;
     }
 
 }
