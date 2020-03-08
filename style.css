@@ -1,8 +1,13 @@
+*
+{
+    margin: 0;
+    padding: 0; 
+}
+
 body
 {
-    margin-top: 0px;
-    padding: 0px;
-    width: 65%;
+   
+    width: 70%;
     height: 1450px;
     margin: auto;
     background-color:grey;
@@ -50,10 +55,10 @@ body
 
 .activities
 {
+    margin-top: 20px;
     display: flex;
     height: 100px;
     justify-content: space-around;
-    margin-top: 20px;
 }
 
 img
@@ -88,6 +93,7 @@ img
 .adress
 {
     margin-left: 30px;
+    margin-top: 15px;
 }
 
 
@@ -95,6 +101,7 @@ img
 {
     width: 250px;
     margin-left: 30px;
+    margin-top: 15px;
     text-align: justify;
 }
 
@@ -106,6 +113,18 @@ img
     height: 1450px;
     margin-bottom: 0px;
     min-width: 737px;
+}
+
+.studies
+{
+    widows: auto;
+    height: 390px;
+}
+
+.professional
+{
+    width:auto ;
+    height: 550px;
 }
 
 
@@ -156,7 +175,7 @@ p.subtitle::before
 .fas, .far 
 {
     color: #FFCA28;
-    padding-right: 15px;
+    margin-right: 10px;
 }
 
 
@@ -189,7 +208,8 @@ h2.p1 .p2 .p3
 
 h2.book, .expe1, .recommend
 {
-	margin-bottom: 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
     border-bottom: 3px solid #FFCA28;
     margin-right: 40px;
     margin-left: 40px;
@@ -205,67 +225,41 @@ h3
 
 h4
 {
-    margin:0; 
+    margin:5px; 
     padding: 0;
 }
 
-section
-{
-	margin-bottom: 70px;
-}
-
-.city
-{
-    margin-left: 30px;
-}
-
-.expe
-{
-    margin-top: 20px;
-    margin-left: 220px;
-    margin-right: 40px;
-    text-align: justify;
-}
 
 .date
 {
 	float: left;
 	margin-left: 40px;
     margin-top: 20px;
+    display: flex;
 }
 
 
+.part1
+{
+    flex: 0.3;
+
 }
+
+.part2
+{
+	flex: 2;
+}
+
+.part3
+{
+	flex: 5;
+	margin-right: 40px;
+}
+
 .date_1
 {
-    margin-top: 5px;
-}
-
-
-.date_2
-{
-    margin-top: 100px;
-    margin-bottom: 90px;
-
-}
-
-.date_3
-{
-    margin-top: 5px;
-}
-
-
-.date_4
-{
-    margin-top: 110px;
-}
-
-
-
-.date_5
-{
-    margin-top: 110px;
-    margin-bottom: 90px;
+    margin:0;
+    padding: 0;
 }
 
 .relations
@@ -275,7 +269,8 @@ section
 
 .recommend_0
 {
-	margin-left: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
 	display: flex;
 
 }
@@ -339,6 +334,11 @@ section
     {
         height: auto;
     }
+    .recommend_0
+    {
+        padding-bottom: 15px;
+
+    }
 }
 
 @media screen and (max-width: 500px)
@@ -351,32 +351,31 @@ section
     .recommend_0
     {
         flex-direction: column;
+        padding-bottom: 15px;
 
     }
 
     .recommend_2
     {
         margin-left: 0px;
+        margin-top: 20px;
     }
 
     .date
     {
-        margin-left: 40px;
+        margin-left: 0px;
         
     }
 
-    .expe
-    {
-        margin-left: 0
-    }
+    
 
     h2.book, .expe1, .recommend
     {
         width: auto;
         margin-bottom: 0px;
         border-bottom: 3px solid #FFCA28;
-        margin-right: 40px;
-        margin-left: 40px;
+        margin-right: 0px;
+        margin-left: 0px;
     }    
 
     #activity
