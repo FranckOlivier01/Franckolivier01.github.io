@@ -6,7 +6,6 @@
 
 body
 {
-   
     width: 70%;
     height: 1450px;
     margin: auto;
@@ -27,7 +26,14 @@ body
 	border: 4px solid orange;
 }
 
-
+.global_picture
+{
+    margin-left: 0;
+}
+.picture_name
+{
+    display: none;
+}
 #presentation
 {
     background-color: #FFCA28; 
@@ -306,6 +312,12 @@ h4
         margin-bottom: 20px;
     }
 
+    .picture_name
+    {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
     
     #about
     {
@@ -316,6 +328,7 @@ h4
     {
         width: auto;
         margin-right: 30px;
+        margin-bottom: 10px;
     }
 
     .name_job
@@ -363,19 +376,34 @@ h4
 
     .date
     {
-        margin-left: 0px;
-        
+        margin-left: 10px;
     }
 
+    .about_me
+    {
+        margin-bottom: 10px;
+    }
+
+    .name_job
+    {
+        margin-top:10px;
+        margin-bottom:10px; 
+        text-align: center;
+    }
     
+    .myname , .subtitle
+    {
+        margin-left:0;
+    }
+
 
     h2.book, .expe1, .recommend
     {
         width: auto;
         margin-bottom: 0px;
         border-bottom: 3px solid #FFCA28;
-        margin-right: 0px;
-        margin-left: 0px;
+        margin-right: 10px;
+        margin-left: 10px;
     }    
 
     #activity
