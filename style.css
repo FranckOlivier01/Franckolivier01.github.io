@@ -123,7 +123,7 @@ img
 
 .studies
 {
-    widows: auto;
+    width: auto;
     height: 390px;
 }
 
@@ -149,12 +149,14 @@ img
 {
     margin-left: 40px;
     margin-bottom: 0;
+    font-size: 42px;
 }
 
 
 p.subtitle
 {
     position:relative;
+    font-size: 19px;
 }
 
 p.subtitle::before 
@@ -303,7 +305,6 @@ h4
         margin-bottom: 0px;
         width: auto;
         height: auto;
-        flex-shrink: none;
     }
 
     #presentation .pics1
@@ -320,6 +321,10 @@ h4
         margin-bottom: 10px;
     }
     
+    .myname
+    {
+        font-size: 30px;
+    }
     #about
     {
         height: auto;
@@ -392,6 +397,11 @@ h4
         text-align: center;
     }
     
+    .myname
+    {
+        font-size: 22px;
+    }
+
     .myname , .subtitle
     {
         margin-left:0;
