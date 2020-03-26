@@ -6,9 +6,7 @@
 
 body
 {
-    width: 70%;
     height: 1450px;
-    margin: auto;
     background-color:grey;
     display: flex;
     justify-content: space-around;
@@ -290,13 +288,14 @@ h4
     margin-left: 40px;
     margin-top: 20px;
 	display: flex;
+    justify-content: space-between;
 
 }
 
+
 .recommend_2
 {
-	margin-left: 200px;
-    margin-right: 40px;
+	    margin-right: 40px;
 }
 
 @media screen and (max-width: 950px) 
