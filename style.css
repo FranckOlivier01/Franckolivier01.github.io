@@ -379,11 +379,17 @@ h4
 {
     #presentation
     {
-        width: 500PX;
+        width: auto;
 
     }
 
-    .adress
+     #activity
+    {
+       min-width: 320px;
+
+    }
+
+     .adress
     {
         text-align: center;
         margin-left: 0;
@@ -445,11 +451,7 @@ h4
         border-bottom: 3px solid #FFCA28;
         margin-right: 10px;
         margin-left: 10px;
-    }    
 
-    #activity
-    {
-        width: 320px;
-    }
+    }    
 
 }
