@@ -113,7 +113,8 @@ img
     flex-grow: 1;
     height: 1450px;
     margin-bottom: 0px;
-    min-width: 737px;
+  /*  min-width: 737px;*/
+    width: 737px;
 }
 
 .studies
@@ -360,7 +361,6 @@ h4
     #activity
     {
         width: auto; 
-        min-width: 500px;
         height: auto;
     }
     #leisure
@@ -375,18 +375,18 @@ h4
     }
 }
 
+
 @media screen and (max-width: 500px)
 {
     #presentation
     {
-        width: auto;
-
+       width: 100%;
     }
 
      #activity
     {
-       min-width: 320px;
-
+        
+        width: 100%;
     }
 
      .adress
@@ -399,7 +399,88 @@ h4
     {
         flex-direction: column;
         padding-bottom: 15px;
+       width: auto;
+
+    }
+
+    .recommend_2
+    {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .date
+    {
+        margin-left: 10px;
+        flex-direction: column;
+    }
+
+    .date_1 
+    {
+        display: none;
+    }
+    
+
+    .about_me
+    {
+        margin-bottom: 10px;
+    }
+
+    .name_job
+    {
+        margin-top:10px;
+        margin-bottom:10px; 
+        text-align: center;
+    }
+    
+    .myname
+    {
+        font-size: 22px;
+    }
+
+    .myname , .subtitle
+    {
+        margin-left:0;
+    }
+
+
+    h2.book, .expe1, .recommend
+    {
+        width: auto;
+        margin-bottom: 0px;
+        border-bottom: 3px solid #FFCA28;
+        margin-right: 10px;
+        margin-left: 10px;
+
+    }    
+
+}
+
+
+@media screen and (max-width: 320px)
+{
+    #presentation
+    {
+        width: 320PX;
+
+    }
+
+     #activity
+    {
         width: 320px;
+    }
+
+     .adress
+    {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .recommend_0
+    {
+        flex-direction: column;
+        padding-bottom: 15px;
+        width: auto;
 
     }
 
